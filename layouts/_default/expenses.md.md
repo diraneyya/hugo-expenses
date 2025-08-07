@@ -2,5 +2,4 @@
 
 | Date | Category | Description | Amount |
 |------|----------|-------------|--------|
-{{ range .Site.Data.expenses }}| {{ .date }} | {{ .category }} | {{ .description }} | ${{ .amount }} |
-{{ end }}
+| {{ .date }} | {{ .purpose }} | {{ .explanatino }} | ${{ .amount }} |
